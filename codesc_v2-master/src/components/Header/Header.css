@@ -1,0 +1,45 @@
+/* Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+    background-color: #4285f4;
+    font-family: "SF Pro Display", sans-serif;
+        /* Use the Apple font */
+        font-weight: 500;
+        font-size: 14px;
+        color: #f8f8f8;
+    /* Blue color for the header background */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    
+    /* Ensure the header appears above other elements */
+}
+
+/* Styles for the back button */
+.back-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0;
+    /* Remove padding */
+    margin-left: 1400px;
+    /* Add some right margin to separate the buttons */
+}
+
+/* Styles for the settings button */
+.setting-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding-right: 10px;
+    /* Remove padding */
+}
+
+/* Rest of the CSS remains the same */
